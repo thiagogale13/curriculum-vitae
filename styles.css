@@ -1,0 +1,70 @@
+/* Diseño General y Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; /* Max ancho para pantallas grandes */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tipografía y Colores */
+h1 {
+    color: #2c3e50;
+    font-family: 'Georgia', serif; /* Fuente para encabezados */
+}
+
+h2 {
+    color: #2980b9;
+}
+
+p, li {
+    line-height: 1.6;
+    color: #34495e;
+}
+
+.profile-img {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-bottom: 20px;
+}
+
+/* Estilización de Elementos de la Página */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-links a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Diseño Responsivo */
+@media (max-width: 600px) {
+    .container {
+        width: 95%; /* Ajusta el ancho para pantallas pequeñas */
+    }
+}
